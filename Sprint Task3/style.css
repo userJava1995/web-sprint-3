@@ -1,0 +1,49 @@
+body{
+    background-color: #ccc;
+}
+
+#formCurrency{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 900px;
+}
+
+select{
+    margin-left: 5px;
+}
+
+input, select{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input:not(:nth-child(6)){
+    margin-left: 20px;
+    background-color: #ccc;
+    border: none;
+    outline: none;
+}
+
+#formCurrency input:nth-child(6){
+    width: 100px;
+}
+
+
+#formCurrency label:nth-child(2), label:nth-child(3), label:nth-child(4){
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+#formCurrency label:nth-child(2){
+    margin-left: 114px;
+}
+
+#formCurrency label:nth-child(3){
+    margin-left: 115px;
+}
+
+#formCurrency label:nth-child(4){
+    margin-left: 112px;
+}

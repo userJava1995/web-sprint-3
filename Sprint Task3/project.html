@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="formCurrency">
+        <label for="">Введите сумму:</label>
+        <label for="">KZT(tenge)</label>
+        <label for="">USD(dollar)</label>
+        <label for="">EUR(euro)</label>
+        <br>
+        <input type="text" id="point">
+        <select id="currency" onclick="getResult()">
+            <option>Валюта</option>
+            <option>KZT</option>
+            <option>EUR</option>
+            <option>USD</option>
+        </select>
+        <input type="text" id="tenge">
+        <input type="text" id="dollar">
+        <input type="text" id="euro">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
